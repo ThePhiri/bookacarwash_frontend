@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply border border-blue-500 rounded-xl px-5 py-1;
+  }
+}
